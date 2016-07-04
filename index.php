@@ -23,6 +23,7 @@
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="bower_components/bootstrap-multiselect/dist/css/bootstrap-multiselect.css">
 </head>
 <body>
 
@@ -142,7 +143,16 @@
 
 
 
-                                    <input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>
+                                    <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
+                                    <select id="example-getting-started" multiple="multiple">
+                                        <option value="cheese">Cheese</option>
+                                        <option value="tomatoes">Tomatoes</option>
+                                        <option value="mozarella">Mozzarella</option>
+                                        <option value="mushrooms">Mushrooms</option>
+                                        <option value="pepperoni">Pepperoni</option>
+                                        <option value="onions">Onions</option>
+                                    </select>
+
                                 </div>
 
 
@@ -1482,5 +1492,11 @@
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <script src="js/gmap.js"></script>
 <script src="js/retina.min.js"></script>
+<script src="bower_components/bootstrap-multiselect/dist/js/bootstrap-multiselect.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#example-getting-started').multiselect();
+    });
+</script>
 </body>
 </html>
