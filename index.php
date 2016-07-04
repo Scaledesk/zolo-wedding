@@ -145,12 +145,20 @@
 
                                     <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
                                     <select id="example-getting-started" multiple="multiple">
-                                        <option value="cheese">Cheese</option>
-                                        <option value="tomatoes">Tomatoes</option>
-                                        <option value="mozarella">Mozzarella</option>
-                                        <option value="mushrooms">Mushrooms</option>
-                                        <option value="pepperoni">Pepperoni</option>
-                                        <option value="onions">Onions</option>
+
+                                        <option value="Makeup and hair">Makeup and hair</option>
+                                        <option value="wedding photography">wedding photography</option>
+                                        <option value="mehndi artists">mehndi artists</option>
+                                        <option value="wedding choreographers">wedding choreographers</option>
+                                        <option value="dhol and bands">dhol and bands</option>
+                                        <option value="dj and live music">dj and live music</option>
+                                        <option value="wedding catering">wedding catering</option>
+                                        <option value="wedding cakes">wedding cakes</option>
+                                        <option value="honeymoon packages">honeymoon packages</option>
+                                        <option value="jaimala setup">jaimala setup</option>
+                                        <option value="pre-wedding shoot">pre-wedding shoot</option>
+                                        <option value="vintage cars">vintage cars</option>
+
                                     </select>
 
                                 </div>
