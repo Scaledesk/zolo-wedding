@@ -419,6 +419,9 @@ a:hover, a:focus{
 .p-t-20{
     padding-top: 20px!important;
 }
+.p-t-0{
+    padding-top: 0!important;
+}
 
 .f-13{
     font-size: 13px;
@@ -464,4 +467,8 @@ a:hover, a:focus{
 
 .btn-90{
     width: 90%;
+}
+
+.p-l-30{
+    padding-left: 30px!important;
 }
