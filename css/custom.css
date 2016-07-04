@@ -341,6 +341,14 @@
         width: 90%!important;
     }
 
+    .talk-t{
+        font-size: 25px!important;
+    }
+
+    .talk-t-p{
+        font-size: 12px!important;
+    }
+
 
 }
 
@@ -428,12 +436,12 @@ a:hover, a:focus{
 }
 
 .text-justify{
-    text-align: justify;
+    text-align: justify!important;
 }
 
 .mobile-footer{
     position: fixed;
-    bottom: -15px;
+    bottom: 0;
     background: #f9f9f9;
     width: 100%;
     padding: 10px;
@@ -471,4 +479,8 @@ a:hover, a:focus{
 
 .p-l-30{
     padding-left: 30px!important;
+}
+
+.f-11{
+    font-size: 11px!important;
 }
