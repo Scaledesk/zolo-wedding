@@ -126,17 +126,17 @@
 
                     <div class="col-md-4">
                         <section class="cta-form cta-light">
-                            <form id="cta-signup-form" class="cta-signup-form form-bg">
+                            <form  class="cta-signup-form form-bg" action="domail.php" method="post">
                                 <!--<h2  class="text-center">Signup for a FREE trial</h2>-->
                                 <!--<div id="mc-error-cta"><i class="fa fa-exclamation-triangle"></i> Please enter a value</div>-->
                                 <div id="mc-success-cta"><i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email</div>
                                 <div class="form-group"> <i class="fa fa-user"></i>
-                                    <input type="text" value="" name="NAME" class="form-control input-lg" id="input-name" placeholder="Your name" required>
+                                    <input type="text" value="" name="name" class="form-control input-lg" id="input-name" placeholder="Your name" required>
                                 </div>
                                 <div class="form-group"><i class="fa fa-phone-square" aria-hidden="true"></i>
 
 
-                                    <input type="number" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Contact Number" required>
+                                    <input type="number" value="" name="phone_number"  class="form-control input-lg" id="input-email" placeholder="Contact Number" required>
                                 </div>
 
                                 <div class="form-group"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
@@ -144,7 +144,7 @@
 
 
                                     <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
-                                    <select id="example-getting-started" multiple="multiple">
+                                    <select id="example-getting-started" multiple="multiple" name="services[]">
 
                                         <option value="Makeup and hair">Makeup and hair</option>
                                         <option value="wedding photography">wedding photography</option>
@@ -167,7 +167,7 @@
                                 <div class="form-group"><i class="fa fa-envelope-square" aria-hidden="true"></i>
 
 
-                                    <input type="email" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Email" required>
+                                    <input type="email" value="" name="email" class="form-control input-lg" id="input-email" placeholder="Email" required>
                                 </div>
 
 
@@ -181,12 +181,17 @@
                                 <!--</select>-->
                                 <!--</div>-->
                                 <div class="form-btn">
-                                    <button type="submit" class="btn wed-btn">REQUEST A CALL BACK NOW</button>
+                                    <input type="submit" class="btn wed-btn form-control" value="REQUEST A CALL BACK NOW" />
                                     <!--<p class="form-terms">By clicking sign up you agree to our <a href="" data-toggle="modal" data-target="#modal-terms">Terms</a> and read our <a href="" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>.</p>-->
                                 </div>
                             </form>
                         </section>
                     </div>
+                   <!-- <form action="domail.php" method="post">
+                        Name: <input type="text" name="name"><br>
+                        E-mail: <input type="text" name="email"><br>
+                        <input type="submit">
+                    </form>-->
 
                     <!--cta signup form end-->
 
