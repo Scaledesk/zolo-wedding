@@ -324,7 +324,7 @@
     }
 
     .logo-nav{
-        width: 110px;
+        margin-top: -20px;
     }
 
     .phone{
@@ -347,6 +347,10 @@
 
     .talk-t-p{
         font-size: 12px!important;
+    }
+
+    .social li{
+        margin-right: 10px;
     }
 
 
