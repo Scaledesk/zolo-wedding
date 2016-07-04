@@ -1,14 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: tushar
- * Date: 4/7/16
- * Time: 7:34 PM
- */
-$username=$_POST['name'];
-//$template=file_get_contents('email_templates/user-normall.php',null, stream_context_create(['username'=>$_POST['name']]));
-//print_r($template);
-$template='<html><head>
+<html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 <title>Batch1 Template 13</title>
@@ -29,19 +19,19 @@ div, p, a, li, td { -webkit-text-size-adjust:none; }
 body{width: 100%; height: 100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;}
 html{ background-color: #e6e4db;width: 100%; }
 
-@font-face {font-family: \'proxima_novalight\';src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-light-webfont.eot\');src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-light-webfont.eot?#iefix\') format(\'embedded-opentype\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-light-webfont.woff\') format(\'woff\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-light-webfont.ttf\') format(\'truetype\');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proxima_novalight';src: url('http://rocketway.net/themebuilder/products/font/proximanova-light-webfont.eot');src: url('http://rocketway.net/themebuilder/products/font/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),url('http://rocketway.net/themebuilder/products/font/proximanova-light-webfont.woff') format('woff'),url('http://rocketway.net/themebuilder/products/font/proximanova-light-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
 
-@font-face {font-family: \'proxima_nova_rgregular\'; src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-regular-webfont.eot\');src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-regular-webfont.eot?#iefix\') format(\'embedded-opentype\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-regular-webfont.woff\') format(\'woff\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-regular-webfont.ttf\') format(\'truetype\');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proxima_nova_rgregular'; src: url('http://rocketway.net/themebuilder/products/font/proximanova-regular-webfont.eot');src: url('http://rocketway.net/themebuilder/products/font/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),url('http://rocketway.net/themebuilder/products/font/proximanova-regular-webfont.woff') format('woff'),url('http://rocketway.net/themebuilder/products/font/proximanova-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
 
-@font-face {font-family: \'proxima_novasemibold\';src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.eot\');src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.eot?#iefix\') format(\'embedded-opentype\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.woff\') format(\'woff\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.ttf\') format(\'truetype\');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proxima_novasemibold';src: url('http://rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.eot');src: url('http://rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('http://rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.woff') format('woff'),url('http://rocketway.net/themebuilder/products/font/proximanova-semibold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
     
-@font-face {font-family: \'proxima_nova_rgbold\';src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-bold-webfont.eot\');src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-bold-webfont.eot?#iefix\') format(\'embedded-opentype\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-bold-webfont.woff\') format(\'woff\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-bold-webfont.ttf\') format(\'truetype\');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proxima_nova_rgbold';src: url('http://rocketway.net/themebuilder/products/font/proximanova-bold-webfont.eot');src: url('http://rocketway.net/themebuilder/products/font/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),url('http://rocketway.net/themebuilder/products/font/proximanova-bold-webfont.woff') format('woff'),url('http://rocketway.net/themebuilder/products/font/proximanova-bold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
     
-@font-face {font-family: \'proxima_novathin\';src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-thin-webfont.eot\');src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-thin-webfont.eot?#iefix\') format(\'embedded-opentype\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-thin-webfont.woff\') format(\'woff\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-thin-webfont.ttf\') format(\'truetype\');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proxima_novathin';src: url('http://rocketway.net/themebuilder/products/font/proximanova-thin-webfont.eot');src: url('http://rocketway.net/themebuilder/products/font/proximanova-thin-webfont.eot?#iefix') format('embedded-opentype'),url('http://rocketway.net/themebuilder/products/font/proximanova-thin-webfont.woff') format('woff'),url('http://rocketway.net/themebuilder/products/font/proximanova-thin-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
 
-@font-face {font-family: \'proxima_novablack\';src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-black-webfont.eot\');src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-black-webfont.eot?#iefix\') format(\'embedded-opentype\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-black-webfont.woff\') format(\'woff\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-black-webfont.ttf\') format(\'truetype\');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'proxima_novablack';src: url('http://rocketway.net/themebuilder/products/font/proximanova-black-webfont.eot');src: url('http://rocketway.net/themebuilder/products/font/proximanova-black-webfont.eot?#iefix') format('embedded-opentype'),url('http://rocketway.net/themebuilder/products/font/proximanova-black-webfont.woff') format('woff'),url('http://rocketway.net/themebuilder/products/font/proximanova-black-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
     
-@font-face {font-family: \'proxima_novaextrabold\';src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.eot\');src: url(\'http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.eot?#iefix\') format(\'embedded-opentype\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.woff2\') format(\'woff2\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.woff\') format(\'woff\'),url(\'http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.ttf\') format(\'truetype\');font-weight: normal;font-style: normal;}   
+@font-face {font-family: 'proxima_novaextrabold';src: url('http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.eot');src: url('http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),url('http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.woff2') format('woff2'),url('http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.woff') format('woff'),url('http://rocketway.net/themebuilder/products/font/proximanova-extrabold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}   
 
 
 p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; margin-bottom: 0!important; margin-left: 0!important; }
@@ -198,7 +188,7 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
         
             
             <!-- Mobile Wrapper -->
-            <table width="475" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile" style="background-image: url(\'https://s3-ap-southeast-1.amazonaws.com/zolo/zolo_category_images/weddingbanners/wedding-mail-banner.jpg\');background-color: rgba(211,211,211,1);background-size: cover;background-position: center center;background-repeat: no-repeat;" id="BGheaderChange">
+            <table width="475" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/zolo/zolo_category_images/weddingbanners/wedding-mail-banner.jpg');background-color: rgba(211,211,211,1);background-size: cover;background-position: center center;background-repeat: no-repeat;" id="BGheaderChange">
                 <tbody><tr>
                     <td width="475" align="center">
                     
@@ -275,7 +265,7 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
                                         <tbody><tr>
                                             <td width="40"></td>
                                             <td valign="middle" width="395" style="text-align: left;font-family: Helvetica, Arial, sans-serif;font-size: 18px;color: #232323;line-height: 18px;font-weight: bold;" class="fullCenter">
-                                                <!--[if !mso]><!--><span style="font-family: \'proxima_nova_rgbold\', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_08212225270751117">Hi '.$username.'<!--[if !mso]><!--><!--<![endif]-->
+                                                <!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgbold', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_08212225270751117">Hi <?php echo $username;?><!--[if !mso]><!--><!--<![endif]-->
                                             </p></span></td>
                                             <td width="40"></td>
                                         </tr>
@@ -322,7 +312,7 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
                                             <td width="40"></td>
                                             <td valign="middle" width="395" style="text-align: left; font-family: Helvetica, Arial, sans-serif; 
            font-size: 15px; color: rgb(151, 151, 151); line-height: 24px;" class="fullCenter">
-                                                <!--[if !mso]><!--><span style="font-family: \'proxima_novasemibold\', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_09201169670319083">Thanks for stopping by on Zolo Weddings and we hope to help you the best way we can :)<!--[if !mso]><!--><!--<![endif]-->
+                                                <!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_09201169670319083">Thanks for stopping by on Zolo Weddings and we hope to help you the best way we can :)<!--[if !mso]><!--><!--<![endif]-->
                                             </p></span></td>
                                             <td width="40"></td>
                                         </tr>
@@ -371,7 +361,7 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
                                         <tbody><tr>
                                             <td width="40"></td>
                                             <td valign="middle" width="395" style="text-align: left; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #979797; line-height: 24px; font-weight: normal;" class="fullCenter">
-                                                <!--[if !mso]><!--><span style="font-family: \'proxima_nova_rgregular\', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284">Your query is important to us, one of our #ZoloWedExpert will get back to you shortly. If you\'re in a rush you can connect with us on +91 88820-91091. </p><p><!--[if !mso]><!--><!--<![endif]-->
+                                                <!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284">Your query is important to us, one of our #ZoloWedExpert will get back to you shortly. If you're in a rush you can connect with us on +91 88820-91091. </p><p><!--[if !mso]><!--><!--<![endif]-->
                                             </p></span></td>
                                             <td width="40"></td>
                                         </tr>
@@ -380,7 +370,7 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
                                         <tbody><tr>
                                             <td width="40"></td>
                                             <td valign="middle" width="395" style="text-align: left; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #979797; line-height: 24px; font-weight: normal;" class="fullCenter">
-                                                <!--[if !mso]><!--><span style="font-family: \'proxima_nova_rgregular\', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284">Just to remind you, Zolo is a commission free wedding planning service. </p><!--[if !mso]><!--><!--<![endif]-->
+                                                <!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284">Just to remind you, Zolo is a commission free wedding planning service. </p><!--[if !mso]><!--><!--<![endif]-->
                                             </p></span></td>
                                             <td width="40"></td>
                                         </tr>
@@ -389,7 +379,7 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
                                         <tbody><tr>
                                             <td width="40"></td>
                                             <td valign="middle" width="395" style="text-align: left; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #979797; line-height: 24px; font-weight: normal;" class="fullCenter">
-                                                <!--[if !mso]><!--><span style="font-family: \'proxima_nova_rgregular\', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284">If you are a Bride or Groom you can take advantage of a free counseling session from our expert Nidhi Jagtiani. This is a special 1 hour Telephonic one-on-one Pre-Marriage counseling session covering various topics. Don\'t forget to ask for this session from our wedding experts.
+                                                <!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284">If you are a Bride or Groom you can take advantage of a free counseling session from our expert Nidhi Jagtiani. This is a special 1 hour Telephonic one-on-one Pre-Marriage counseling session covering various topics. Don't forget to ask for this session from our wedding experts.
  </p><!--[if !mso]><!--><!--<![endif]-->
                                                 </p></span></td>
                                             <td width="40"></td>
@@ -399,7 +389,7 @@ p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; mar
                                         <tbody><tr>
                                             <td width="40"></td>
                                             <td valign="middle" width="395" style="text-align: left; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #979797; line-height: 24px; font-weight: normal;" class="fullCenter">
-                                                <!--[if !mso]><!--><span style="font-family: \'proxima_nova_rgregular\', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284"><strong>More About Nidhi Jagtiani</strong><br>
+                                                <!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284"><strong>More About Nidhi Jagtiani</strong><br>
 Nidhi is the Founder and Owner of Image Redefined based out of Gurgaon. A Personal Stylist and Image Coach & a Visiting Guest Faculty at Pearl Academy for Personal Style and Grooming. Nidhi Jagtiani provides workshops, seminars for both individuals and corporates in Bridal Shopping, Power Dressing, Personal Branding, Power Wardrobe, Personal Style Evaluation & More.
  </p><!--[if !mso]><!--><!--<![endif]-->
                                                 </p></span></td>
@@ -410,7 +400,7 @@ Nidhi is the Founder and Owner of Image Redefined based out of Gurgaon. A Person
                                         <tbody><tr>
                                             <td width="40"></td>
                                             <td valign="middle" width="395" style="text-align: left; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #979797; line-height: 24px; font-weight: normal;" class="fullCenter">
-                                                <!--[if !mso]><!--><span style="font-family: \'proxima_nova_rgregular\', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284"><strong>More About Zolo Weddings</strong><br>
+                                                <!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><p cu-identify="element_0949466731107284"><strong>More About Zolo Weddings</strong><br>
 Zolo Weddings is the coolest one stop online destination to discover, plan and shop for your wedding! We work with handpicked vendors to ensure you get best execution for your wedding. Our wedding experts will work with you to arrange everything from Venue Booking to Vintage Car Rentals and ensure a hassle free experience on your big day. </p><!--[if !mso]><!--><!--<![endif]-->
                                                 </p></span></td>
                                             <td width="40"></td>
@@ -420,7 +410,7 @@ Zolo Weddings is the coolest one stop online destination to discover, plan and s
                                         <tbody><tr>
                                             <td width="40"></td>
                                             <td valign="middle" width="395" style="text-align: left; font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #979797; line-height: 24px; font-weight: normal;" class="fullCenter">
-                                                <!--[if !mso]><!--><span style="font-family: \'proxima_nova_rgregular\', Helvetica; font-weight: normal;"><!--<![endif]--><div><br></div><div>Wish you a Happy Wedding :)</div><div>Team Zolo</div><p><!--[if !mso]><!--><!--<![endif]-->
+                                                <!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]--><div><br></div><div>Wish you a Happy Wedding :)</div><div>Team Zolo</div><p><!--[if !mso]><!--><!--<![endif]-->
                                             </p></span></td>
                                             <td width="40"></td>
                                         </tr>
@@ -474,7 +464,7 @@ Zolo Weddings is the coolest one stop online destination to discover, plan and s
                                                 <table border="0" cellpadding="0" cellspacing="0" align="left" class="buttonScale">
                                                     <tbody style="border-color: #ff0072;"><tr style="border-color: #ff0072;">
                                                         <td width="auto" align="center" height="40" bgcolor="#71a42e" style="border-radius: 4px; padding-left: 20px; padding-right: 20px; font-weight: 600; font-family: Helvetica, Arial, sans-serif; color: rgb(255, 255, 255); border-color: #ff0072; background-color: #ff0072;">
-                                                            <!--[if !mso]><!--><span style="font-family: \'proxima_novasemibold\', Helvetica; font-weight: normal;"><!--<![endif]-->
+                                                            <!--[if !mso]><!--><span style="font-family: 'proxima_novasemibold', Helvetica; font-weight: normal;"><!--<![endif]-->
                                                                 <a href="http://imzolo.com/wedding-specials" style="color: #ffffff; font-size: 15px; text-decoration: none; line-height: 40px; width: 100%;" cu-identify="element_05848554069063554">Explore our Wedding Packages</a>
                                                             <!--[if !mso]><!--></span><!--<![endif]-->
                                                         </td>
@@ -574,7 +564,7 @@ Zolo Weddings is the coolest one stop online destination to discover, plan and s
                                                     <tbody><tr>
                                                         <td valign="middle" width="110" height="18" style="text-align: right; font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: #ff0072; line-height: 24px;" class="fullCenter">
                                                             
-                                                                <!--[if !mso]><!--><span style="font-family: \'proxima_nova_rgregular\', Helvetica; font-weight: normal;"><!--<![endif]-->
+                                                                <!--[if !mso]><!--><span style="font-family: 'proxima_nova_rgregular', Helvetica; font-weight: normal;"><!--<![endif]-->
                                                                 <!--subscribe--><a href="http://www.imzolo.com/#/home" style="color: #ff0072; text-decoration: none;" cu-identify="element_039047018264485267">About Us</a><!--unsub-->
                                                                 <!--[if !mso]><!--></span><!--<![endif]-->
                                                             
@@ -616,50 +606,4 @@ Zolo Weddings is the coolest one stop online destination to discover, plan and s
     </tr>
 </tbody></table><!-- Wrapper 1 -->
 </div>
-    <style>body{ background: none !important; } </style></body></html>';
-//print_r($template);
-//die;
-?>
-<?php
-/**
- * Created by PhpStorm.
- * User: tushar
- * Date: 4/7/16
- * Time: 5:29 PM
- */
-include_once 'vendor/autoload.php';
-
-$mail = new PHPMailer;
-
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
-
-$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'email-smtp.us-west-2.amazonaws.com';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'AKIAJHQ3XNEXXHP27ZSA';                 // SMTP username
-$mail->Password = 'AoeE41tcpicmrBVhhdVtiA9pUIvKCD7rndYhnsUalQCj';                           // SMTP password
-$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
-
-$mail->setFrom('hi@imzolo.com', 'zolo');
-$mail->addAddress($_POST['email']);     // Add a recipient
-//$mail->addAddress('ellen@example.com');               // Name is optional
-$mail->addReplyTo('hi@imzolo.com', 'noreply');
-//$mail->addCC('tushar@scaledesk.com');
-//$mail->addBCC('tushar@scaledesk.com');
-
-//$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-$mail->isHTML(true);                                  // Set email format to HTML
-
-$mail->Subject = 'Zolo Wedding';
-$mail->Body    = $template;
-//$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-if(!$mail->send()) {
-//    echo 'Message could not be sent.';
-//    echo 'Mailer Error: ' . $mail->ErrorInfo;
-} else {
-    header('Location:index.php?status=success');
-}
-?>
+    <style>body{ background: none !important; } </style></body></html>
