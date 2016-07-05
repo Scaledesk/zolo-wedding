@@ -1356,15 +1356,20 @@
             <div class="row">
                 <div class="mobile-footer">
 
-                <div class="col-xs-6 p-0">
-                    <button type="submit" class="btn wed-btn">REQUEST A CALL</button>
+                <div class="col-xs-12 p-0">
+                    <a href="tel:08882091091"><button type="submit" class="btn wed-btn p-l-10" style="width:80%;">
+                       <i class="fa fa-phone"></i> Talk to our Wedding Experts
+                    </button>
+                        </a>
 
                 </div>
 
+<!--
                 <div class="col-xs-6 p-0 m-t-5">
-                    <a href="tel:+1856-236-1853">+91 08882091091</a></h3>
+                    <a href="tel:08882091091">+91 08882091091</a></h3>
                     <p class="f-11">Talk To Our Expert</p>
                 </div>
+-->
 
                 </div>
 
