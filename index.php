@@ -136,7 +136,7 @@
                                 <div class="form-group"><i class="fa fa-phone-square" aria-hidden="true"></i>
 
 
-                                    <input type="number" value="" name="phone_number"  class="form-control input-lg" id="input-email" placeholder="Contact Number" required>
+                                    <input type="number" value="" name="phonenumber"  class="form-control input-lg" id="input-email" placeholder="Contact Number" required>
                                 </div>
 
                                 <div class="form-group"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
@@ -161,7 +161,7 @@
 
                                     </select>
 
-                                    <input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>
+                                  <!--  <input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
                                 </div>
 
 
@@ -181,6 +181,7 @@
                                 <!--<option>Newsletter</option>-->
                                 <!--</select>-->
                                 <!--</div>-->
+                                <input type="hidden" name="whichform" value="normalform"/>
                                 <div class="form-btn">
                                     <input type="submit" class="btn wed-btn form-control" value="REQUEST A CALL BACK NOW" />
                                     <!--<p class="form-terms">By clicking sign up you agree to our <a href="" data-toggle="modal" data-target="#modal-terms">Terms</a> and read our <a href="" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>.</p>-->
@@ -1416,12 +1417,12 @@
 
                 <!--contact form-->
 
-                <div class="contact-form text-center">
+                <div class="text-center">
                     <header class="section-header"> <img src="img/WEDDING-EXPERT.png" alt="support icon" width="100">
                         <h2>Contact us</h2>
                         <h3>Have any questions? Send us a message.</h3>
                     </header>
-                    <form class="cta-form cta-light" action="php/contact.php" method="post">
+                    <!--<form class="cta-form cta-light" action="php/contact.php" method="post">
                         <div class="form-group">
                             <input  type="text" name="name" class="contact-name form-control input-lg" placeholder="Name *" id="contact-name">
                         </div>
@@ -1436,6 +1437,67 @@
                             <input type="number" name="antispam" placeholder="Number" class="contact-antispam form-control input-lg" id="contact-antispam">
                         </div>
                         <button type="submit" class="btn wed-btn">SEND MESSAGE</button>
+                    </form>-->
+                    <form  class="cta-signup-form form-bg" action="domail.php" method="post">
+                        <!--<h2  class="text-center">Signup for a FREE trial</h2>-->
+                        <!--<div id="mc-error-cta"><i class="fa fa-exclamation-triangle"></i> Please enter a value</div>-->
+                        <div id="mc-success-cta"><i class="fa fa-envelope"></i> Awesome! We have sent you a confirmation email</div>
+                        <div class="form-group"> <i class="fa fa-user"></i>
+                            <input type="text" value="" name="name" class="form-control input-lg" id="input-name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group"><i class="fa fa-phone-square" aria-hidden="true"></i>
+
+
+                            <input type="number" value="" name="phonenumber"  class="form-control input-lg" id="input-email" placeholder="Contact Number" required>
+                        </div>
+
+                        <div class="form-group"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
+
+
+
+                            <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
+                            <select id="example-getting-started" multiple="multiple" name="services[]">
+
+                                <option value="Makeup and hair">Makeup and hair</option>
+                                <option value="wedding photography">wedding photography</option>
+                                <option value="mehndi artists">mehndi artists</option>
+                                <option value="wedding choreographers">wedding choreographers</option>
+                                <option value="dhol and bands">dhol and bands</option>
+                                <option value="dj and live music">dj and live music</option>
+                                <option value="wedding catering">wedding catering</option>
+                                <option value="wedding cakes">wedding cakes</option>
+                                <option value="honeymoon packages">honeymoon packages</option>
+                                <option value="jaimala setup">jaimala setup</option>
+                                <option value="pre-wedding shoot">pre-wedding shoot</option>
+                                <option value="vintage cars">vintage cars</option>
+
+                            </select>
+
+                            <!--  <input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
+                        </div>
+
+
+                        <div class="form-group"><i class="fa fa-envelope-square" aria-hidden="true"></i>
+
+
+                            <input type="email" value="" name="email" class="form-control input-lg" id="input-email" placeholder="Email" required>
+                        </div>
+
+
+                        <!--<div class="form-group"> <i class="fa fa-comment-o"></i>-->
+                        <!--<select name="MMERGE2" class="form-control">-->
+                        <!--<option>How did you find us?</option>-->
+                        <!--<option>Blog</option>-->
+                        <!--<option>Google</option>-->
+                        <!--<option>Facebook</option>-->
+                        <!--<option>Newsletter</option>-->
+                        <!--</select>-->
+                        <!--</div>-->
+                        <input type="hidden" name="whichform" value="normalform"/>
+                        <div class="form-btn">
+                            <input type="submit" class="btn wed-btn form-control" value="REQUEST A CALL BACK NOW" />
+                            <!--<p class="form-terms">By clicking sign up you agree to our <a href="" data-toggle="modal" data-target="#modal-terms">Terms</a> and read our <a href="" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>.</p>-->
+                        </div>
                     </form>
                 </div>
 
@@ -1457,19 +1519,19 @@
 
                     <!--contact form-->
 
-                    <div class="contact-form text-center">
+                    <div class="text-center">
                         <header class="section-header"> <img src="img/WEDDING-EXPERT.png" alt="support icon" width="100">
                             <h2>REQUEST FOR A FREE CONSULTATION</h2>
                             <!--<h3>Have any questions? Send us a message.</h3>-->
                         </header>
-                        <form class="cta-form cta-light" action="php/contact.php" method="post">
+                        <form class="cta-form cta-light" action="domail.php" method="post">
                             <div class="form-group">
                                 <input  type="text" name="name" class="contact-name form-control input-lg" placeholder="Full Name *" id="contact-name">
                             </div>
 
                             <div class="form-group text-left">
-                                <label class="radio-inline m-r-20"><input type="radio" name="optradio"> I'm The Groom</label>
-                                <label class="radio-inline"><input type="radio" name="optradio">I'm The Bride</label>
+                                <label class="radio-inline m-r-20"><input type="radio" name="GroomorBride" value="Groom"> I'm The Groom</label>
+                                <label class="radio-inline"><input type="radio" name="GroomorBride" value="Bride">I'm The Bride</label>
 
 
 
@@ -1478,15 +1540,15 @@
 
 
                             <div class="form-group">
-                                <input type="number" name="antispam" placeholder="Phone Number" class="contact-antispam form-control input-lg" id="contact-antispam">
+                                <input type="number" name="phonenumber" placeholder="Phone Number" class="contact-antispam form-control input-lg" id="contact-antispam">
                             </div>
 
                             <div class="form-group">
-                                <input type="number" name="antispam" placeholder="E-Mail Address" class="contact-antispam form-control input-lg" id="contact-antispam">
+                                <input type="email" name="email" placeholder="E-Mail Address" class="contact-antispam form-control input-lg" id="contact-antispam">
                             </div>
+                            <input type="hidden" name="whichform" value="consultform"/>
 
-
-                            <button type="submit" class="btn wed-btn">SEND MESSAGE</button>
+                            <input type="submit" class="btn wed-btn">SEND MESSAGE</input>
                         </form>
                     </div>
 
