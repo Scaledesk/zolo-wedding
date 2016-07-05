@@ -524,7 +524,7 @@ a:hover, a:focus{
     height: 100px;
 }
 
-.hover-call{
+.hover-call:hover h3, .hover-call:hover p{
     color: #ff0072;
 }
 
