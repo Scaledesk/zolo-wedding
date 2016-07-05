@@ -35,10 +35,11 @@ if(!$mail->send()) {
     unset($mail);
     $mail=makeMailObject();
     checkWhichMaiSendToAdmin($mail);
-    $mail->addAddress('tushar@scaledesk.com');
-    $mail->addBCC('aashima@imzolo.com');
     $mail->addAddress('sales@imzolo.com');
-    echo $mail->send()?'success mail send to the admin':'error in sending mail to the admin';
+    $mail->addBCC('aashima@imzolo.com');
+    $mail->addBCC('lakhani@imzolo.com');
+    $mail->addAddress('sales@imzolo.com');
+    $mail->send()?'success mail send to the admin':'error in sending mail to the admin';
     header('Location:index.php?status=success');
 }
 

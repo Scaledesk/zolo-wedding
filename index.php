@@ -35,9 +35,9 @@
 
     <nav class="navbar navbar-default" data-spy="affix" data-offset-top="450">
         <div class="container">
-            <div class="navbar-header"> <a class="navbar-brand p-0" href=""><img class="logo" alt="logo" src="img/LOGO-01.svg" width="90"><img class="logo-nav" alt="logo-nav" src="img/ZOLO-WEDDINGv3-01.png" width="200"></a> </div>
+            <div class="navbar-header"> <a class="navbar-brand p-0" href=""><img class="logo" alt="logo" src="img/logo-white-text.png" width="200"><img class="logo-nav" alt="logo-nav" src="img/ZOLO-WEDDINGv3-01.png" width="200"></a> </div>
             <ul class="nav navbar-nav navbar-right">
-                <li class="hidden-xs"><a href="tel:08882091091"><span style="border: 1px solid #eee;padding: 10px; "><i class="fa fa-phone-square f-25"></i>&nbsp;<span class="w-300 f-25 phone" >+91 88820-91091 </span></span>&nbsp;&nbsp;<span class="phone-e w-600 f-18 hidden-xs" style="display: block; margin-top: 15px;">&nbsp;&nbsp;Talk To Our Wedding Expert</span></a></li>
+                <li class="hidden-xs"><a href="tel:08882091091"><span style="border: 1px solid #eee;padding: 10px; "><i class="fa fa-phone-square f-25"></i>&nbsp;<span class="w-300 f-25 phone" >+91 88820-91091 </span></span>&nbsp;&nbsp;<span class="phone-e w-600 f-18 hidden-xs" style="display: block; margin-top: 15px;">&nbsp;Talk To Our Wedding Experts</span></a></li>
                 <!--<li class="hidden-xs hidden-sm"><a href="#services">Services</a></li>-->
                 <!--<li class="hidden-xs hidden-sm"><a href="#reviews">How it Work</a></li>-->
                 <!--<li class="hidden-xs"><a href="signin.html">Sign In</a></li>-->
@@ -237,7 +237,7 @@
 
         <div class="col-md-3 border-right height text-center col-sm-6">
             <img src="img/INSTALLMENT.png" alt="" class="img-circle" width="100">
-            <p  class="text-center">Installment Payments For Services Above INR 50,000</p>
+            <p  class="text-center">Installment Payments For Services Above &#8377; 50,000</p>
         </div>
 
         <div class="col-md-3 border-right height text-center col-sm-6">
@@ -348,9 +348,9 @@
                             <div class="h-works-box">
                                 <img src="img/DISCOVER.png" alt="" class="img-circle" width="100">
 
-                                <h4>DISCOVER & GET THE BEST CATCH</h4>
+                                <h4>DISCOVER &amp; GET THE BEST CATCH</h4>
                                 <p class="letter-space"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;
-                                    Request a call back from our #Zolowedexperts and get guided for services raging from sending invitation to planning the entire weddings</p>
+                                    Request a call back from our #Zolowedexperts and get guided for services ranging from sending invitation to planning the entire wedding.</p>
                             </div>
                         </div>
                         <!--features 1 end-->
@@ -360,7 +360,7 @@
                                 <img src="img/VERIFIED-VENDORS-01.png" alt="" class="img-circle" width="100">
                                 <h4>GET IN TOUCH WITH OUR VERIFIED VENDORS</h4>
                                 <p class="letter-space"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;
-                                    Our #Zolowedexperts introduce you to our handpicked venders for the finest assistance and best price before you go </p>
+                                    Our #Zolowedexperts introduce you to our handpicked vendors for the finest assistance at the best price. </p>
                             </div>
                         </div>
                         <!--features 2 end-->
@@ -369,7 +369,7 @@
                             <div class="h-works-box">
                                 <img src="img/WEDDING-EXPERT.png" alt="" class="img-circle" width="100">
                                 <h4>STAY ASSISTED TILL YOUR DAY</h4>
-                                <p class="letter-space"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Your #Zolowedexperts will assist you till the last minute of your big day ensuring hastle free experience </p>
+                                <p class="letter-space"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Your #Zolowedexperts will assist you till the last minute of your big day ensuring hassle free experience </p>
                             </div>
                         </div>
                         <!--features 3 end-->
@@ -413,7 +413,7 @@
                 <div class="row-margin">
                     <header class="section-header">
                         <h2 class="w-800">Free Pre-Wedding Consultation Worth Rs. 5200</h2>
-                        <h3 class="f-20 m-0">Special 1 hour Telephonic one on one counseling session for Brides & Grooms
+                        <h3 class="f-20 m-0">Special 1 hour one on one Telephonic Counseling Session for Brides &amp; Grooms
                         </h3>
                     </header>
                     <div class="row">
@@ -594,7 +594,7 @@
 
 
                             <div class="col-md-10 ">
-                                <h4>Assistence ~ Feel like a Prince/Princess</h4>
+                                <h4>Assistance ~ Feel like a Prince/Princess</h4>
                                 <p>Stay assisted till the last minute of your event by our #zolowedexperts and stay calm</p>
                             </div>
 
@@ -610,7 +610,7 @@
 
                             <div class="col-md-10">
                                 <h4>Installment options available ~ Divide and rule</h4>
-                                <p>We introducethe new generations wedding market by providing installment options for Services worth above 50k</p>
+                                <p>We introducethe new generation wedding market by providing installment options for Services worth above &#8377; 50,000</p>
                             </div>
 
                         </div>
@@ -944,7 +944,7 @@
                     <!--</ul>-->
                     <!--<p>Fusce laoreet lectus tellus, aliquam maximus magna auctor suscipit. Praesent sed lacinia lectus. Ut laoreet finibus odio quis laoreet.</p>-->
                     <!--<div class="wed-box">-->
-                        <p class="text-center wed-box">Vintage cars</p>
+                        <p class="text-center wed-box">Vintage cars <br> <span>&#40; &nbsp;&#8377; 55,000 Onwards&nbsp; &#41;</span></p>
                     </div>
 
                 <!--</div>-->
@@ -969,7 +969,7 @@
                     <!--<p>Fusce laoreet lectus tellus, aliquam maximus magna auctor suscipit. Praesent sed lacinia lectus. Ut laoreet finibus odio quis laoreet.</p>-->
                 <!--</div>-->
                 <!--<div class="wed-box">-->
-                    <p class="text-center wed-box">Pre-Wedding Shoot</p>
+                    <p class="text-center wed-box">Pre-Wedding Shoot<br> <span>&#40; &nbsp;&#8377; 10,000 Onwards&nbsp; &#41;</span></p>
                 <!--</div>-->
 
 
@@ -992,7 +992,7 @@
                     <!--<p>Fusce laoreet lectus tellus, aliquam maximus magna auctor suscipit. Praesent sed lacinia lectus. Ut laoreet finibus odio quis laoreet.</p>-->
                 <!--</div>-->
                 <!--<div class="wed-box">-->
-                    <p class="text-center wed-box">Exclusive Palkis</p>
+                    <p class="text-center wed-box">Exclusive Palkis<br> <span>&#40; &nbsp;&#8377; 10,000 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1016,7 +1016,7 @@
                     <!--<p>Fusce laoreet lectus tellus, aliquam maximus magna auctor suscipit. Praesent sed lacinia lectus. Ut laoreet finibus odio quis laoreet.</p>-->
                 <!--</div>-->
                 <!--<div class="wed-box">-->
-                    <p class="text-center wed-box">Helicopter Showers</p>
+                    <p class="text-center wed-box">Helicopter Showers<br> <span>&#40; &nbsp;&#8377; 2,25,000 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1039,7 +1039,7 @@
                 <!--Team 1-->
                 <div class="item"> <img src="https://s3-ap-southeast-1.amazonaws.com/zolo/zolo_category_images/WEDDING+MAKEUP.jpg" alt="team member" class="img-circle border-p">
 
-                    <p class="text-center wed-box">Bridal Makeup</p>
+                    <p class="text-center wed-box">Bridal Makeup<br> <span>&#40; &nbsp;&#8377; 10,000 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1055,7 +1055,7 @@
                 <!--Team 1-->
                 <div class="item"> <img src="img/c6.jpg" alt="team member" class="img-circle border-p">
 
-                    <p class="text-center wed-box">Flute Mermaid</p>
+                    <p class="text-center wed-box">Flute Mermaid<br> <span>&#40; &nbsp;&#8377; 50,000 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1070,7 +1070,7 @@
                 <!--Team 1-->
                 <div class="item"> <img src="img/c5.jpg" alt="team member" class="img-circle border-p">
 
-                    <p class="text-center wed-box">Human Tables</p>
+                    <p class="text-center wed-box">Human Tables<br> <span>&#40; &nbsp;&#8377; 12,000 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1087,7 +1087,7 @@
                 <!--Team 1-->
                 <div class="item"> <img src="img/c7.jpg" alt="team member" class="img-circle border-p">
 
-                    <p class="text-center wed-box">Jaimala Setup</p>
+                    <p class="text-center wed-box">Jaimala Setup<br> <span>&#40; &nbsp;&#8377; 8,000 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1111,7 +1111,7 @@
                 <div class="item"> <img src="https://s3-ap-southeast-1.amazonaws.com/zolo/zolo_category_images/WEDDING+CHOREOGRAPHY.jpg" alt="team member" class="img-circle border-p">
 
                 <!--<div class="wed-box">-->
-                    <p class="text-center wed-box">Choreographers</p>
+                    <p class="text-center wed-box">Choreographers<br> <span>&#40; &nbsp;&#8377; 2,000 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1127,7 +1127,7 @@
                 <!--Team 1-->
                 <div class="item"> <img src="https://s3-ap-southeast-1.amazonaws.com/zolo/zolo_category_images/DJ1.jpg" alt="team member" class="img-circle border-p">
 
-                    <p class="text-center wed-box">Live Bands</p>
+                    <p class="text-center wed-box">Live Bands<br> <span>&#40; &nbsp;&#8377; 30,000 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1142,7 +1142,7 @@
                 <!--Team 1-->
                 <div class="item"> <img src="https://s3-ap-southeast-1.amazonaws.com/zolo/zolo_category_images/WEDDING+PHOTOGRAPHY.jpg" alt="team member" class="img-circle border-p">
 
-                    <p class="text-center wed-box">Cinemtographic Photography</p>
+                    <p class="text-center wed-box">Cinemtographic Photography<br> <span>&#40; &nbsp;&#8377; 25,000 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1161,7 +1161,7 @@
 
                 </div>
                 <div class="wed-box">
-                    <p class="text-center">Wedding Cakes</p>
+                    <p class="text-center">Wedding Cakes<br> <span>&#40; &nbsp;&#8377; 1,500 Onwards&nbsp; &#41;</span></p>
                 </div>
 
 
@@ -1181,6 +1181,44 @@
 
     </div>
 </section>
+    
+<!--    User reviews Section-->
+    
+    <div class="user-reviews p-t-50 p-b-50 text-center" id="reviews">
+  <div class="container">
+    <div class="row">
+        <p class="f-25"> Hear from our Customers</p>
+      <div class="col-md-9 center-block">
+        <div class="reviews-slider owl-carousel owl-theme">
+          
+          <div class="item"> 
+            
+            <!--review 2-->
+            <blockquote>
+              <figure> <img src="img/komal.png" alt="user" class="img-circle"> </figure>
+              <p class="f-18">“Team Zolo - There are no words that can express the depth of appreciation for all your hard work & Co-ordination...YOU ARE A ROCK STAR! It was truly magical, joyous, love-filled, beautiful wedding that was our vision-come-to-life. Without your suggestion we would have never done it in a unique way.
+”</p>
+              <footer> <cite>Komal Mehra, <i>New Delhi</i></cite> </footer>
+            </blockquote>
+            <!--review 2 end--> 
+            
+          </div>
+          <div class="item"> 
+            
+            <!--review 3-->
+            <blockquote>
+              <figure> <img src="img/deepti.png" alt="user" class="img-circle"> </figure>
+              <p class="f-18">“I am totally surprised on how you guys made it possible! Me and my husband Rahul cannot believe that things you suggested us were even possible in our budget. U Guys made is absolutely incredible. Thanks for all the effort and co-ordination. HATS OFF.”</p>
+              <footer> <cite>Dipti Jain, <i>Gurgaon</i></cite> </footer>
+            </blockquote>
+            <!--review 3 end--> 
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!--About us end-->
 
@@ -1197,7 +1235,7 @@
     <!--<h2 class="text-center">GIVE IT A TRY! </h2>-->
 
     <div class="row">
-        <h2 class="w-800">Get In Touch & Feel The Zolo Experience</h2>
+        <h2 class="w-800">Get In Touch &amp; Feel The Zolo Experience</h2>
         <div class="col-md-4 p-10-74">
             <h3 class="m-t-0 p-10 talk-t" style="border: 1px solid #eee;"><i class="fa fa-phone-square" aria-hidden="true"></i>
                 &nbsp;+91 88820-91091</h3>
@@ -1232,7 +1270,7 @@
     <div class="container-fluid">
 
         <div class="row footer-col-spacing m-b-0 border-0 p-b-10">
-            <div class="col-md-2 footer-logo m-t-0"> <a href=""><img src="img/LOGO.png" alt="logo footer"></a>
+            <div class="col-md-2 footer-logo m-t-0"> <a href=""><img src="img/logo-white-text.png" alt="logo footer"></a>
 
             </div>
 
@@ -1269,7 +1307,7 @@
                     <li>Noida, Uttar Pradesh</li>
                     <li>India - 201301</li>
                     <!--<li>Call us <a href="tel:+1856-236-1853">+91 08882091091</a></li>-->
-                    <li><a href="mailto:support@imzolo.com" class="bg-white">support@imzolo.com</a></li>
+                    <li><a href="mailto:sales@imzolo.com" class="bg-white">sales@imzolo.com</a></li>
                     <!--<li><a href="" data-toggle="modal" data-target="#modal-google-map">Locate on Google Map</a></li>-->
 
 
@@ -1286,7 +1324,7 @@
     <hr>
     <div class="container">
         <div class="row">
-            <div class="col-sm-5 col-md-6"> <small class="bg-white"> &copy; 2016 Zolo Technologies Pvt. Ltd.. All rights reserved.</small> </div>
+            <div class="col-sm-5 col-md-6"> <small class="bg-white"> &copy; 2016 Zolo Technologies Pvt. Ltd. All rights reserved.</small> </div>
             <div class="col-sm-7 col-md-6">
                 <!--<ul class="terms-privacy">-->
                     <!--<li><a href="" data-toggle="modal" data-target="#modal-terms">Terms</a></li>-->
@@ -1592,7 +1630,12 @@
 <script src="bower_components/bootstrap-multiselect/dist/js/bootstrap-multiselect.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        $('.example-getting-started').multiselect();
+//        $('.example-getting-started').multiselect();
+        $('.example-getting-started').multiselect({
+            nonSelectedText: 'Service you are interested in... ',
+            buttonWidth : '320px',
+            buttonClass: 'btn btn-multi'
+        });
     });
 </script>
 </body>

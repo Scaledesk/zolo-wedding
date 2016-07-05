@@ -123,6 +123,7 @@
 
 .wed-btn{
     background-color: #ff0072!important;
+    color: #f5f5f5 !important;
 }
 
 
@@ -487,4 +488,29 @@ a:hover, a:focus{
 
 .f-11{
     font-size: 11px!important;
+}
+
+.btn-multi{
+    background: #ffffff;
+    color: #848e92;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: inherit;
+    padding: 1em 2em;
+}
+
+.btn-multi:hover{
+    background: #ffffff;
+    color: black;
+}
+
+.wed-btn:hover{
+    color: #ffffff !important;
+    background-color: #dc0062 !important;
+}
+
+.user-reviews{
+     background-color: #dc0062;
+    
 }
