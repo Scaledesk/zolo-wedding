@@ -103,6 +103,9 @@
     margin-bottom: 50px!important;
 }
 
+.m-b-10{
+    margin-bottom: 10px !important;
+}
 .team-details img{
     width: 250px!important;
     height: auto!important;
@@ -528,6 +531,16 @@ a:hover, a:focus{
     color: #ff0072;
 }
 
+.bg-p{
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 4px;
+    
+}
+
+.call-inset-shadow{
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
 .user-reviews{
     background-image: url(../img/bg-t.jpg);
     background-size: cover;
@@ -544,5 +557,11 @@ a:hover, a:focus{
 
 @media screen and (max-device-width: 370px) {
     .wed-btn{ padding-left: 5%;}
+    
+    .welcome-message h1{
+        font-size: 20px !important;
+    }
 }
+
+
 
