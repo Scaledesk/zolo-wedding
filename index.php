@@ -147,18 +147,18 @@
                                     <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
                                     <select class="example-getting-started" multiple="multiple" name="services[]" required>
 
-                                        <option value="Makeup and hair">Makeup and hair</option>
-                                        <option value="wedding photography">wedding photography</option>
-                                        <option value="mehndi artists">mehndi artists</option>
-                                        <option value="wedding choreographers">wedding choreographers</option>
-                                        <option value="dhol and bands">dhol and bands</option>
-                                        <option value="dj and live music">dj and live music</option>
+                                        <option value="Makeup and hair">Makeup &amp; Hair</option>
+                                        <option value="wedding photography">Wedding Photography</option>
+                                        <option value="mehndi artists">Mehndi Artists</option>
+                                        <option value="wedding choreographers">Wedding Choreographers</option>
+                                        <option value="dhol and bands">Dhol &amp; Bands</option>
+                                        <option value="dj and live music">Dj &amp; live music</option>
                                         <option value="wedding catering">wedding catering</option>
-                                        <option value="wedding cakes">wedding cakes</option>
-                                        <option value="honeymoon packages">honeymoon packages</option>
-                                        <option value="jaimala setup">jaimala setup</option>
-                                        <option value="pre-wedding shoot">pre-wedding shoot</option>
-                                        <option value="vintage cars">vintage cars</option>
+                                        <option value="wedding cakes">Wedding Cakes</option>
+                                        <option value="honeymoon packages">Honeymoon Packages</option>
+                                        <option value="jaimala setup">Jaimala Setup</option>
+                                        <option value="pre-wedding shoot">Pre-Wedding Shoot</option>
+                                        <option value="vintage cars">Vintage Cars</option>
 
                                     </select>
 
@@ -932,7 +932,7 @@
             <h3>Grab them before they are packed</h3>
         </header>
         <div class="row text-center team-details m-b-50">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -956,7 +956,7 @@
 
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -979,7 +979,7 @@
             </div>
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1003,7 +1003,7 @@
 
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1034,7 +1034,7 @@
 
 
         <div class="row text-center team-details m-b-50">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1050,7 +1050,7 @@
 
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1065,7 +1065,7 @@
             </div>
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1082,7 +1082,7 @@
 
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1105,7 +1105,7 @@
 
 
         <div class="row text-center team-details m-b-50">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1122,7 +1122,7 @@
 
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1137,7 +1137,7 @@
             </div>
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1154,7 +1154,7 @@
 
 
 
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 m-b-10">
                 <!--<div class="team-slider owl-carousel owl-theme">-->
 
                 <!--Team 1-->
@@ -1643,5 +1643,14 @@
         });
     });
 </script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74584340-4', 'none');
+  //ga('send', 'pageview');</script> 
+
 </body>
 </html>

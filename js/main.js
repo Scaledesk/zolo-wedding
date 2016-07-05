@@ -163,7 +163,7 @@ $(function() {
         paginationSpeed: 400,
         singleItem: true,
         transitionStyle: "fade",
-        autoPlay: 7000
+        autoPlay: 5000
 
 
     });

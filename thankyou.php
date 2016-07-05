@@ -107,7 +107,7 @@
 
                         <div class="col-md-12 p-l-5">
                             
-                            <a type="button" class="btn wed-btn">
+                            <a href="http://www.imzolo.com/wedding-specials" type="button" class="btn wed-btn">
                             Explore our Wedding Packages</a>
                             
                             </div>
