@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zolo Technologies Pvt. Ltd.</title>
     <meta name="description" content="Zolo Wedding Services">
+    <meta name="keywords" content="Wedding Services, Wedding Services">
 
     <!--Favicon-->
 
@@ -1187,7 +1188,7 @@
     <div class="user-reviews p-t-50 p-b-50 text-center" id="reviews">
   <div class="container">
     <div class="row">
-        <p class="f-25"> Hear from our Customers</p>
+        <p class="f-25 text-w"> Hear from our Customers</p>
       <div class="col-md-9 center-block">
         <div class="reviews-slider owl-carousel owl-theme">
           
@@ -1195,7 +1196,7 @@
             
             <!--review 2-->
             <blockquote>
-              <figure> <img src="img/komal.png" alt="user" class="img-circle"> </figure>
+              <figure> <img src="img/komal.png" alt="user" class="img-circle border-w"> </figure>
               <p class="f-18">“Team Zolo - There are no words that can express the depth of appreciation for all your hard work & Co-ordination...YOU ARE A ROCK STAR! It was truly magical, joyous, love-filled, beautiful wedding that was our vision-come-to-life. Without your suggestion we would have never done it in a unique way.
 ”</p>
               <footer> <cite>Komal Mehra, <i>New Delhi</i></cite> </footer>
@@ -1207,7 +1208,7 @@
             
             <!--review 3-->
             <blockquote>
-              <figure> <img src="img/deepti.png" alt="user" class="img-circle"> </figure>
+              <figure> <img src="img/deepti.png" alt="user" class="img-circle border-w"> </figure>
               <p class="f-18">“I am totally surprised on how you guys made it possible! Me and my husband Rahul cannot believe that things you suggested us were even possible in our budget. U Guys made is absolutely incredible. Thanks for all the effort and co-ordination. HATS OFF.”</p>
               <footer> <cite>Dipti Jain, <i>Gurgaon</i></cite> </footer>
             </blockquote>
@@ -1236,11 +1237,13 @@
 
     <div class="row">
         <h2 class="w-800">Get In Touch &amp; Feel The Zolo Experience</h2>
+       <a href="tel:8882091091" class="hover-call">
         <div class="col-md-4 p-10-74">
             <h3 class="m-t-0 p-10 talk-t" style="border: 1px solid #eee;"><i class="fa fa-phone-square" aria-hidden="true"></i>
                 &nbsp;+91 88820-91091</h3>
-            <p class="f-20 talk-t-p">Talk To Our Wedding Expert</p>
+            <p class="f-20 talk-t-p">Talk To Our Wedding Experts</p>
         </div>
+           </a>
 
 
         <div class="col-md-4">

@@ -514,3 +514,26 @@ a:hover, a:focus{
      background-color: #dc0062;
     
 }
+
+.text-w{
+    color: #ffffff;
+}
+
+.user-reviews blockquote figure img{
+    width: 100px;
+    height: 100px;
+}
+
+.hover-call{
+    color: #ff0072;
+}
+
+.user-reviews{
+    background-image: url(../img/bg-t.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.border-w{
+    border: 2px solid #f5f5f5;
+}
