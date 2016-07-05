@@ -144,7 +144,7 @@
 
 
                                     <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
-                                    <select id="example-getting-started" multiple="multiple" name="services[]">
+                                    <select class="example-getting-started" multiple="multiple" name="services[]">
 
                                         <option value="Makeup and hair">Makeup and hair</option>
                                         <option value="wedding photography">wedding photography</option>
@@ -1456,7 +1456,7 @@
 
 
                             <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
-                            <select id="example-getting-started" multiple="multiple" name="services[]">
+                            <select class="example-getting-started" multiple="multiple" name="services[]">
 
                                 <option value="Makeup and hair">Makeup and hair</option>
                                 <option value="wedding photography">wedding photography</option>
@@ -1592,7 +1592,7 @@
 <script src="bower_components/bootstrap-multiselect/dist/js/bootstrap-multiselect.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        $('#example-getting-started').multiselect();
+        $('.example-getting-started').multiselect();
     });
 </script>
 </body>
