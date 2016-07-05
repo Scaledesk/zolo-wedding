@@ -36,7 +36,7 @@
 
     <nav class="navbar navbar-default" data-spy="affix" data-offset-top="450">
         <div class="container">
-            <div class="navbar-header"> <a class="navbar-brand p-0" href=""><img class="logo" alt="logo" src="img/logo-white-text.png" width="200"><img class="logo-nav" alt="logo-nav" src="img/ZOLO-WEDDINGv3-01.png" width="200"></a> </div>
+            <div class="navbar-header"> <a class="navbar-brand p-0" href=""><img class="logo" alt="logo" src="img/zolo-weddings%20(white).png" width="200"><img class="logo-nav" alt="logo-nav" src="img/zoloweddings%20(red).png" width="200"></a> </div>
             <ul class="nav navbar-nav navbar-right">
                 <li class="hidden-xs"><a href="tel:08882091091"><span style="border: 1px solid #eee;padding: 10px; "><i class="fa fa-phone-square f-25"></i>&nbsp;<span class="w-300 f-25 phone" >+91 88820-91091 </span></span>&nbsp;&nbsp;<span class="phone-e w-600 f-18 hidden-xs" style="display: block; margin-top: 15px;">&nbsp;Talk To Our Wedding Experts</span></a></li>
                 <!--<li class="hidden-xs hidden-sm"><a href="#services">Services</a></li>-->
@@ -224,7 +224,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <h2 class="f-24 text-center  m-b-30 m-5">A Commitment sincere than your Vows</h2>
+            <h2 class="f-24 text-center  m-b-30 m-5">A Commitment Sincerer Than Your Vows</h2>
 
         </div>
     </div>
@@ -1273,7 +1273,7 @@
     <div class="container-fluid">
 
         <div class="row footer-col-spacing m-b-0 border-0 p-b-10">
-            <div class="col-md-2 footer-logo m-t-0"> <a href=""><img src="img/logo-white-text.png" alt="logo footer"></a>
+            <div class="col-md-2 footer-logo m-t-0"> <a href=""><img src="img/zolo-weddings%20(white).png" alt="logo footer"></a>
 
             </div>
 
@@ -1637,7 +1637,7 @@
     $(document).ready(function() {
 //        $('.example-getting-started').multiselect();
         $('.example-getting-started').multiselect({
-            nonSelectedText: 'Service you are interested in... ',
+            nonSelectedText: 'Services interested in... ',
             buttonWidth : '320px',
             buttonClass: 'btn btn-multi'
         });

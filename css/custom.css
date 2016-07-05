@@ -539,5 +539,10 @@ a:hover, a:focus{
 }
 
 @media screen and (max-device-width: 700px) and (min-device-width:300px){
-    .btn-group{width: 300px !important;}
+    .btn-multi{width: 280px !important;}
 }
+
+@media screen and (max-device-width: 370px) {
+    .wed-btn{ padding-left: 5%;}
+}
+
