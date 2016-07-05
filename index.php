@@ -145,7 +145,7 @@
 
 
                                     <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
-                                    <select class="example-getting-started" multiple="multiple" name="services[]">
+                                    <select class="example-getting-started" multiple="multiple" name="services[]" required>
 
                                         <option value="Makeup and hair">Makeup and hair</option>
                                         <option value="wedding photography">wedding photography</option>
@@ -1497,7 +1497,7 @@
 
 
                             <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
-                            <select class="example-getting-started" multiple="multiple" name="services[]">
+                            <select class="example-getting-started" multiple="multiple" name="services[]" required>
 
                                 <option value="Makeup and hair">Makeup and hair</option>
                                 <option value="wedding photography">wedding photography</option>
@@ -1567,25 +1567,22 @@
                         </header>
                         <form class="cta-form cta-light" action="domail.php" method="post">
                             <div class="form-group">
-                                <input  type="text" name="name" class="contact-name form-control input-lg" placeholder="Full Name *" id="contact-name">
+                                <input  type="text" name="name" class="contact-name form-control input-lg" placeholder="Full Name *" id="contact-name" required>
                             </div>
 
                             <div class="form-group text-left">
                                 <label class="radio-inline m-r-20"><input type="radio" name="GroomorBride" value="Groom"> I'm The Groom</label>
                                 <label class="radio-inline"><input type="radio" name="GroomorBride" value="Bride">I'm The Bride</label>
-
-
-
                             </div>
 
 
 
                             <div class="form-group">
-                                <input type="number" name="phonenumber" placeholder="Phone Number" class="contact-antispam form-control input-lg" id="contact-antispam">
+                                <input type="number" name="phonenumber" placeholder="Phone Number" class="contact-antispam form-control input-lg" id="contact-antispam" required>
                             </div>
 
                             <div class="form-group">
-                                <input type="email" name="email" placeholder="E-Mail Address" class="contact-antispam form-control input-lg" id="contact-antispam">
+                                <input type="email" name="email" placeholder="E-Mail Address" class="contact-antispam form-control input-lg" id="contact-antispam" required>
                             </div>
                             <input type="hidden" name="whichform" value="consultform"/>
 
