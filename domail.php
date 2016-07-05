@@ -40,7 +40,7 @@ if(!$mail->send()) {
     $mail->addBCC('lakhani@imzolo.com');
     $mail->addAddress('sales@imzolo.com');
     $mail->send()?'success mail send to the admin':'error in sending mail to the admin';
-    header('Location:index.php?status=success');
+    header('Location:thanku.php');
 }
 
 function makeMailObject(){
