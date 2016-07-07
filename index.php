@@ -147,6 +147,7 @@
                                     <!--<input type="text" value="" name="EMAIL" class="form-control input-lg" id="input-email" placeholder="Interested Services" required>-->
                                     <select class="example-getting-started" multiple="multiple" name="services[]" required>
 
+                                        <option value="Wedding Planner">Wedding Planner</option>
                                         <option value="Makeup and hair">Makeup &amp; Hair</option>
                                         <option value="wedding photography">Wedding Photography</option>
                                         <option value="mehndi artists">Mehndi Artists</option>
