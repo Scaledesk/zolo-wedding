@@ -153,7 +153,7 @@
                                         <option value="wedding choreographers">Wedding Choreographers</option>
                                         <option value="dhol and bands">Dhol &amp; Bands</option>
                                         <option value="dj and live music">Dj &amp; live music</option>
-                                        <option value="wedding catering">wedding catering</option>
+                                        <option value="wedding catering">Wedding Catering</option>
                                         <option value="wedding cakes">Wedding Cakes</option>
                                         <option value="honeymoon packages">Honeymoon Packages</option>
                                         <option value="jaimala setup">Jaimala Setup</option>
