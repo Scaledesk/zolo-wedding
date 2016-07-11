@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zolo Technologies Pvt. Ltd.</title>
-    <meta name="description" content="Zolo Wedding Services">
-    <meta name="keywords" content="Wedding Services, Wedding Services">
+    <meta name="description" content="Zolo Weddings is your one stop shop for weddings & special events. Choose from 1000+ vendors, from Photographers to Dhol &Band, all the services under one name.">
+    <meta name="keywords" content="Wedding Services, Wedding Services Bridal Mehndi, Catering Service, Bridal Makeup, Wedding Choreographers, DJ, Pre Wedding Photography, Wedding Photographers in Delhi, Wedding Planners in Delhi">
 
     <!--Favicon-->
 
@@ -1192,30 +1192,84 @@
         <p class="f-25 text-w"> Hear from our Customers</p>
       <div class="col-md-9 center-block">
         <div class="reviews-slider owl-carousel owl-theme">
+
+             <div class="item"> 
+            
+            <!--review 3-->
+            <blockquote>
+              <figure> <img src="img/t-3.png" alt="user" class="img-circle border-w"> </figure>
+              <p class="f-18">I just wanted to thank you so much for the fantastic job you did on my makeup for my wedding day. It was very natural which was exactly what I wanted. I really couldn’t have been happier on the day and would highly recommend you to anyone looking for a professional makeup artist for their wedding. Thanks so much again.</p>
+              <footer> <cite>Mehak, <i>New Delhi</i></cite> </footer>
+            </blockquote>
+            <!--review 3 end--> 
+            
+          </div>
+
+
+
           
           <div class="item"> 
             
             <!--review 2-->
             <blockquote>
-              <figure> <img src="img/komal.png" alt="user" class="img-circle border-w"> </figure>
-              <p class="f-18">“Team Zolo - There are no words that can express the depth of appreciation for all your hard work & Co-ordination...YOU ARE A ROCK STAR! It was truly magical, joyous, love-filled, beautiful wedding that was our vision-come-to-life. Without your suggestion we would have never done it in a unique way.
-”</p>
-              <footer> <cite>Komal Mehra, <i>New Delhi</i></cite> </footer>
+              <figure> <img src="img/t-1.png" alt="user" class="img-circle border-w"> </figure>
+              <p class="f-18">A big thank you to your amazing wedding photography talents, the pictures look incredible. It’s going to be tough to decide now on which ones to frame. From Pre-wedding shoot to sangeet ceremony to the final Wedding day, you guys captured every moment well. Thank you for contributing so richly to my wedding day.
+              <footer> <cite>Priyanka Duggal, <i>New Delhi</i></cite> </footer>
             </blockquote>
             <!--review 2 end--> 
             
           </div>
+         
+
+
+         
+
+
+
+
           <div class="item"> 
             
             <!--review 3-->
             <blockquote>
-              <figure> <img src="img/deepti.png" alt="user" class="img-circle border-w"> </figure>
-              <p class="f-18">“I am totally surprised on how you guys made it possible! Me and my husband Rahul cannot believe that things you suggested us were even possible in our budget. U Guys made is absolutely incredible. Thanks for all the effort and co-ordination. HATS OFF.”</p>
-              <footer> <cite>Dipti Jain, <i>Gurgaon</i></cite> </footer>
+              <figure> <img src="img/t-5.jpg" alt="user" class="img-circle border-w"> </figure>
+              <p class="f-18">I just wanted to thank you very much for providing the most exquisite vintage cars which were an absolute delight to be transported in for my brother’s special day. I gave him a surprise and he couldn't have been more pleased. It was best vintage car rental service in Delhi.</p>
+              <footer> <cite>Pulkit Tanjeja, <i>Faridabad</i></cite> </footer>
             </blockquote>
             <!--review 3 end--> 
             
           </div>
+
+
+           <div class="item"> 
+            
+            <!--review 3-->
+            <blockquote>
+              <figure> <img src="img/t-4.1.png" alt="user" class="img-circle border-w"> </figure>
+              <p class="f-18">Thank you so much for making sure everything was set up perfectly on the day of our Sangeet and Wedding. We received a lot of compliments about the decor! I would definitely recommend you guys. Thank you for all the hard work.</p>
+              <footer> <cite>Monish Singh, <i>Faridabad</i></cite> </footer>
+            </blockquote>
+            <!--review 3 end--> 
+            
+          </div>
+
+
+
+
+           <div class="item"> 
+            
+            <!--review 3-->
+            <blockquote>
+              <figure> <img src="img/t-2.png" alt="user" class="img-circle border-w"> </figure>
+              <p class="f-18">“Thank you so much for all your help teaching us as total beginners how to dance as well as choreographing our first dance for our wedding. I am well aware of what it takes to achieve customer satisfaction and you certainly did this. Thank you again for your patience in teaching us how to dance. We loved it! Thank you Zolo, to let me dance with that confidence."</p>
+              <footer> <cite>Deepshikha, <i>Faridabad</i></cite> </footer>
+            </blockquote>
+            <!--review 3 end--> 
+            
+          </div>
+
+
+
+
         </div>
       </div>
     </div>
@@ -1645,13 +1699,16 @@
     });
 </script>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-74584340-4', 'none');
-  //ga('send', 'pageview');</script> 
+  ga('create', 'UA-80602802-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </body>
 </html>
