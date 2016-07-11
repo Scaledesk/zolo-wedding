@@ -1189,7 +1189,7 @@
     <div class="user-reviews p-t-50 p-b-50 text-center" id="reviews">
   <div class="container">
     <div class="row">
-        <p class="f-25 text-w"> Hear from our Customers</p>
+        <p class="f-25 text-w"> WEDDING DECORATION </p>
       <div class="col-md-9 center-block">
         <div class="reviews-slider owl-carousel owl-theme">
 
