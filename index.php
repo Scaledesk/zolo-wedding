@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zolo Technologies Pvt. Ltd.</title>
-    <meta name="description" content="Zolo Weddings is your one stop shop for weddings & special events. Choose from 1000+ vendors, from Photographers to Dhol &Band, all the services under one name.">
+    <title>Zolo Weddings - Best wedding planners 2016</title>
+    <meta name="description" content="Zolo Weddings is the best way to plan your wedding. We have expert wedding planners ready to assist you & find best vendors.">
     <meta name="keywords" content="Wedding Services, Wedding Services Bridal Mehndi, Catering Service, Bridal Makeup, Wedding Choreographers, DJ, Pre Wedding Photography, Wedding Photographers in Delhi, Wedding Planners in Delhi">
 
     <!--Favicon-->
@@ -155,6 +155,9 @@
                                         <option value="dhol and bands">Dhol &amp; Bands</option>
                                         <option value="dj and live music">Dj &amp; live music</option>
                                         <option value="wedding catering">Wedding Catering</option>
+                                        <option value="candid photography">Candid photography</option>
+                                        <option value="Wedding Gifts">Wedding Gifts</option>
+
                                         <option value="wedding cakes">Wedding Cakes</option>
                                         <option value="honeymoon packages">Honeymoon Packages</option>
                                         <option value="jaimala setup">Jaimala Setup</option>
@@ -1189,12 +1192,11 @@
     <div class="user-reviews p-t-50 p-b-50 text-center" id="reviews">
   <div class="container">
     <div class="row">
-        <p class="f-25 text-w"> WEDDING DECORATION </p>
+        <p class="f-25 text-w">WEDDING DECORATION </p>
       <div class="col-md-9 center-block">
         <div class="reviews-slider owl-carousel owl-theme">
 
              <div class="item"> 
-            
             <!--review 3-->
             <blockquote>
               <figure> <img src="img/t-3.png" alt="user" class="img-circle border-w"> </figure>
@@ -1209,11 +1211,10 @@
 
           
           <div class="item"> 
-            
             <!--review 2-->
             <blockquote>
               <figure> <img src="img/t-1.png" alt="user" class="img-circle border-w"> </figure>
-              <p class="f-18">A big thank you to your amazing wedding photography talents, the pictures look incredible. It’s going to be tough to decide now on which ones to frame. From Pre-wedding shoot to sangeet ceremony to the final Wedding day, you guys captured every moment well. Thank you for contributing so richly to my wedding day.
+              <p class="f-18">A big thank you to your amazing wedding candid photography talents, the pictures look incredible. It’s going to be tough to decide now on which ones to frame. From Pre-wedding shoot to sangeet ceremony to the final Wedding day, you guys captured every moment well. Thank you for contributing so richly to my wedding day.
               <footer> <cite>Priyanka Duggal, <i>New Delhi</i></cite> </footer>
             </blockquote>
             <!--review 2 end--> 
@@ -1519,7 +1520,7 @@
                 <!--contact form-->
 
                 <div class="text-center">
-                    <header class="section-header"> <img src="img/WEDDING-EXPERT.png" alt="support icon" width="100">
+                    <header class="section-header" style="margin-bottom:10px;"> <img src="img/WEDDING-EXPERT.png" alt="support icon" width="100" >
                         <h2>Contact us</h2>
                         <h3>Have any questions? Send us a message.</h3>
                     </header>
@@ -1567,6 +1568,8 @@
                                 <option value="dj and live music">dj and live music</option>
                                 <option value="wedding catering">wedding catering</option>
                                 <option value="wedding cakes">wedding cakes</option>
+                                <option value="candid photography">Candid photography</option>
+                                <option value="Wedding Gifts">Wedding Gifts</option>
                                 <option value="honeymoon packages">honeymoon packages</option>
                                 <option value="jaimala setup">jaimala setup</option>
                                 <option value="pre-wedding shoot">pre-wedding shoot</option>
@@ -1596,7 +1599,7 @@
                         <!--</div>-->
                         <input type="hidden" name="whichform" value="normalform"/>
                         <div class="form-btn">
-                            <input type="submit" class="btn wed-btn form-control" value="REQUEST A CALL BACK NOW" />
+                            <input type="submit" class="btn wed-btn form-control" value="REQUEST A CALL BACK NOW" style="padding: 10px 40px; height: 55px;" />
                             <!--<p class="form-terms">By clicking sign up you agree to our <a href="" data-toggle="modal" data-target="#modal-terms">Terms</a> and read our <a href="" data-toggle="modal" data-target="#modal-terms">Privacy Policy</a>.</p>-->
                         </div>
                     </form>
